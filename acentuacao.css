@@ -1,0 +1,99 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    float: left;
+    font-size: 1.4em;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 16px;
+}
+
+header a:hover {
+    background-color: #24897e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #264653;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.img2 {
+    width: 300px;
+    height: 200px;
+}
+
+.img3 {
+    width: 300px;
+    height: 200px;
+}
+
+.img1 {
+    width: 300px;
+    height: 200px;
+}
+
+.center-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

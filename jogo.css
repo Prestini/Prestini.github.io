@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex; /* Flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz o corpo ocupar toda a altura da tela */
+    margin: 0; /* Remove a margem padrão */
+    flex-direction: column; /* Coloca o título fora do quadrado */
+    text-align: center; /* Alinha o texto centralizado */
+}
+
+h1 {
+    font-size: 52px; /* Aumenta o tamanho do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    color: #333; /* Cor escura para o título */
+}
+
+.titulo {
+    /* padding-top: 2em; */
+}
+
+/* Estilos do contêiner do jogo */
+.container {
+    background-color: white;
+    padding: 50px; /* Aumentando o padding para mais espaço interno */
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    width: 90%;  /* Faz o quadrado ocupar 90% da largura da tela */
+    max-width: 800px; /* Limita a largura para 800px */
+    /* min-height: 600px; /* Aumenta a altura mínima do contêiner */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 20px; /* Aumentando o padding do input */
+    width: 80%;
+    margin: 15px 0;
+    font-size: 20px; /* Aumentando o tamanho da fonte */
+}
+
+button {
+    padding: 20px; /* Aumentando o tamanho do botão */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 20px; /* Aumentando o tamanho da fonte dos textos */
+    margin-top: 20px; /* Aumentando o espaçamento entre os parágrafos */
+}

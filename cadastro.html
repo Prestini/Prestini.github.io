@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+
+<h1>Jogo da adivinhação</h1>
+
+
+
+<h2>Cadastro</h2>
+
+<div class="form-container">
+    <form id="form-cadastro">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+
+            <option value="">Selecione...</option>
+
+            <option value="masculino">Masculino</option>
+
+            <option value="feminino">Feminino</option>
+
+            <option value="outro">Outro</option>
+
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+<script src="cadastro.js"></script>
+</body>
+
+</html>

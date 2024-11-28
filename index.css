@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9FBF8F;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-top: 1em;
+}
+
+a {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+    align-items: center;
+    flex-grow: 0;
+    width: 300px;
+    margin: 1rem;
+    font-size: 30pt;
+    background-color: #7f9b6b;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+}
+a:hover {
+    filter: brightness(80%);
+}
+.ola-nome {
+    /* text-align: left; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#nome{
+    padding: 0 5px;
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p {
+    font-size: 20px;
+}
